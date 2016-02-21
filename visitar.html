@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Visitar</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+      </head>
+  <body>
+  <div class="statusbar-overlay"></div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar theme-aqua">
+              <div class="navbar-inner">
+               <a href="#" data-panel="left" class="open-panel"><img src="images/menu.svg" width="28px" class="menu"></a>
+
+              </div>
+            </div>
+              <!-- Panels Overlay -->
+  <div class="panel-overlay"></div>
+
+
+  <!-- Right Panel with Cover effect -->
+  <div class="panel panel-left panel-cover">
+
+      <div class="list-block">
+  <ul >
+    <li>
+      <a href="index.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-happy"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Inicio</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="visitar.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-camera"></span></div>
+          <div class="item-inner">
+          <div class="item-title"><b>Qué visitar</b></div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="hacer.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-star-full"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Qué hacer</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content">
+        <div class="item-media"><span class="icon-spoon-knife"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Dónde comer</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content">
+        <div class="item-media"><span class="icon-glass2"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Vida nocturna</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content">
+        <div class="item-media"><span class="icon-office"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Dónde descansar</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="maps/map-general.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-location2"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Mapa</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="acerca.html" class="item-link item-content external">
+        <div class="item-media"><span class="icon-info"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Acerca de</div>
+
+        </div>
+      </a>
+    </li>
+  </ul>
+
+</div>
+  </div>
+
+  <div class="page-content">
+
+<!--Card (Seccion)-->
+<div class="content-block-title">Qué Visitar</div>
+<hr align="left" style="margin-left:14px;margin-right:14px">
+
+ 		<div class="card demo-card-header-pic c1">
+  		<div style="background-image:url(images/sto-dom.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Ex-Convento de Santo Domingo</p></div>
+  		<div class="card-content">
+    	<div class="card-content-inner">
+      	<p class="color-gray">Av. Independencia Col. Centro, Izúcar de Matamoros.</p>
+      	<p>Edificio con poco más de 400 años de antigüedad donde sus grandes muros han sido testigos de momentos historicos en nuestro municipio.</p>
+    	</div>
+	  </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-bluegray"> Más información</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+          <p align="justify" style="padding-left:6px;padding-right:6px;">
+            En este Ex-Convento Dominico, se realizan recorridos guiados que se llevan a cabo el 1er y 3er miércoles de cada mes y 1er y 3er sábado de cada mes con un horario de 11 a.m. a 2 p.m. los miércoles y de 12 p.m. a 2 p.m. los sábados.
+            <br>
+            <b>Expositor:</b> <i>Arqueólogo Raúl Martínez</i><br>
+            <small>Cronista Municipal de Izúcar.</small>
+          </p>
+
+       </div>
+       </li>
+        <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/sto-dom.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+		</div>
+
+<!-- Inicia Anuncio -->
+  <div id="ver" class="anuncio">
+      <iframe src="bnr/banner.html" width="100%" height="140x;" scrolling="none" ></iframe>
+      <div align="right"><a href="#" class="button button-raised  color-red" onclick="ocultar()" style="width:100%">ocultar anuncio</a></div>
+  </div>
+<br><br><br>
+<!-- End Anuncio -->
+<div class="card demo-card-header-pic">
+      <div style="background-image:url(images/cass-cultura.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Casa de Cultura Josefina Esparza Soriano</p></div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Calle Ayuntamiento #17, Col Centro, Izúcar de Matamoros.</p>
+        <p align="justify">Localizada en el que fuera Convento Hospital de Nuestra Señora de los Dolores, actualmente se realizan diferentes actividades culturales y artisticas, además de contar con una sala donde se exponen diferentes piezas arqueologicas halladas en la obra de remodelación del "Tianguillo".</p>
+      <div align="center">
+        <a href="https://farm2.staticflickr.com/1678/24063099444_e5e9a5f5f5_k.jpg" data-lightbox="roadtrip" data-title="Museo Casa de Cultura"><img src="https://farm2.staticflickr.com/1678/24063099444_e5e9a5f5f5_k.jpg" width="24%" alt="Museo"></a>
+
+        <a href="https://farm2.staticflickr.com/1481/24395754530_9482606635_k.jpg" data-lightbox="roadtrip" data-title="Museo Casa de Cultura"><img src="https://farm2.staticflickr.com/1481/24395754530_9482606635_k.jpg" width="24%" alt="Museo"></a>
+
+        <a href="https://farm2.staticflickr.com/1469/24691278425_1431361848_k.jpg" data-lightbox="roadtrip" data-title="Museo Casa de Cultura"><img src="https://farm2.staticflickr.com/1469/24691278425_1431361848_k.jpg" width="24%" alt="Museo"></a>
+
+      </div>
+      </div>
+    </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-bluegray"> Más información</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+          <p align="justify" style="padding-left:6px;padding-right:6px;">
+           Concluyo su construcción en el año de 1740, perteneciente a la orden de los Juaninos congregación religiosa que se caracterizaba por dar servicios de curaciones gratuitamente.<br>
+           Fue abandonado en el año de 1849 y a partir del año de 1850 el H. Ayuntamiento quedo a cargo de este nosocomio.
+           Josefina Esparza  Soriano, autora del Himno al Estado de Puebla fue quien fundara esta Casa de Cultura la cual fuera la primera en el estado y actualmente orgullosamente lleva su nombre.
+
+          </p>
+
+       </div>
+       </li>
+        <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/cultura-map.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+    </div>
+<!-- New Card section-->
+<div class="card demo-card-header-pic">
+      <div style="background-image:url(images/h-snnic.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Ex-Hacienda de Sn. Nicolás Tolentino</p></div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Calle Ignacio Zaragoza, Sn Nicolás Tolentino, Izúcar de Matamoros.</p>
+        <p align="justify">Localizada en la comunidad de San Nicolas Tolentino, la que fuera una de las haciendas azucareras mas reelevantes de la región. <br>Si te llaman la atención los sitios de este tipo de arquitectura no dudes en visitarla.</p>
+      </div>
+    </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/sn-nic.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+    </div>
+<!--New Card Section-->
+ <div class="card demo-card-header-pic">
+      <div style="background-image:url(images/h-colon.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Ex-Hacienda de Sn. Juan Colón</p></div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Calle Emiliano Zapata , Sn Jn Colón, Izúcar de Matamoros.</p>
+        <p align="justify">Localizada en la comunidad de San Juan Colón perteneciente a el municipio de Izúcar de Matamoros.<br>Una Ex-Hacienda más perteneciente a nuestra región Mixteca, ubicada aproximadamente a 21 min. (12.4 Km) del Centro de Izúcar. </p>
+      </div>
+    </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/sn-col.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+    </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+  </body>
+</html>

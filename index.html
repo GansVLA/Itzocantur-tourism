@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>ItzocanTur</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+
+  </head>
+  <body >
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page" ng-controller="IndexPageController">
+
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar theme-blue">
+              <div class="navbar-inner">
+              <a href="#" data-panel="left" class="open-panel"><img src="images/menu.svg" width="28px" class="menu"></a>
+              <div class="center"><small>Izúcar de Matamoros</small></div>
+
+              </div>
+            </div>
+              <!-- Panels Overlay -->
+  <div class="panel-overlay"></div>
+
+
+  <!-- Right Panel with Cover effect -->
+  <div class="panel panel-left panel-cover">
+
+  <div class="list-block">
+  <ul >
+    <li>
+      <a href="#" class="item-link item-content external">
+          <div class="item-media"><span class="icon-happy"></span></div>
+          <div class="item-inner">
+          <div class="item-title"><b>Inicio</b></div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="visitar.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-camera"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Qué visitar</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="hacer.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-star-full"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Qué hacer</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content external">
+        <div class="item-media"><span class="icon-spoon-knife"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Dónde comer</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content">
+        <div class="item-media"><span class="icon-glass2"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Vida nocturna</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content">
+        <div class="item-media"><span class="icon-office"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Dónde descansar</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="maps/map-general.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-location2"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Mapa</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="acerca.html" class="item-link item-content external">
+        <div class="item-media"><span class="icon-info"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Acerca de</div>
+
+        </div>
+      </a>
+    </li>
+  </ul>
+
+</div>
+  </div>
+  <div class="page-content">
+  <div class="card demo-card-header-pic" style="margin-top:-25px;">
+      <div style="background-image:url(images/izucar.jpg)" valign="bottom" class="card-header color-white no-border">
+      </div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Izúcar de Matamoros, Puebla.</p>
+        <p align="justify">Nuestro municipio esta situado en el suroeste de el estado de Puebla, con un clima cálido y una gran riqueza histórica.<br>
+           Ven y conoce más acerca de nuestra Heorica ciudad de Izúcar de Matamoros, disfruta de la gastronomia tipica de la región.
+        </p>
+
+        <a href="images/como-llegar.jpg" data-lightbox="image-1" data-title="Cómo llegar" class="lazy lazy-fadeIn"><img src="images/como-llegar.jpg" width="100%"/></a>
+      </div>
+    </div>
+
+    </div>
+    <div class="content-block-title">Ven Izúcar te espera!</div>
+    <div class="content-block">
+    <!-- Secciones -->
+  <div >
+    <a href="visitar.html" class="external">
+    <img src="images/visitar.jpg" width="100%" class="lazy lazy-fadeIn">
+    </a>
+  </div>
+    <!-- Secciones -->
+
+    <a href="hacer.html" class="external">
+    <img src="images/hacer.jpg" width="100%" class="lazy lazy-fadeIn">
+    </a>
+
+    <!-- Secciones -->
+
+    <a href="#" class="external">
+    <img src="images/comer.jpg" width="100%" class="lazy lazy-fadeIn">
+    </a>
+
+    <!-- Secciones -->
+
+    <a href="#" class="external">
+    <img src="images/descansar.jpg" width="100%" class="lazy lazy-fadeIn">
+    </a>
+
+    </div>
+
+
+    <div data-progress="100" class="progressbar color-red"></div>
+    <h3 align="center" class="color-blue">Clima en Izúcar de Matamoros</h3>
+  <div class="row dk" style="padding: 0 10px 0 2px;">
+
+      <div id="cont_9514be776636b4deed058f42ce9531bc"><span id="h_9514be776636b4deed058f42ce9531bc"><a id="a_9514be776636b4deed058f42ce9531bc" href="http://www.meteored.mx/" target="_blank" style="color:#03658C;font-family:8;font-size: 13px; text-decoration: none;" class="external">Izucar De Matamoros Clima</a></span><script type="text/javascript" async src="https://www.meteored.mx/wid_loader/9514be776636b4deed058f42ce9531bc"></script></div>
+  </div>
+ <div data-progress="100" class="progressbar color-red"></div>
+ <br><br><br>
+ <!-- Banner-->
+<div class="row">
+  <div class="card anuncio2" id="ver">
+    <div class="card-content">
+      <img src="images/atlanta.gif" width="100%"/>
+      <a href="#" class="button button-raised  color-red" onclick="ocultar()" >ocultar</a>
+      <a href="#!" class="button button-raised color-blue external" >Ir al sitio</a>
+    </div>
+  </div>
+</div>
+<!-- end Banner-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+  </body>
+</html>

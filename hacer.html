@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Qué Hacer.</title>
+    <!-- Path to Framework7 Library CSS, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <!-- Path to Framework7 color related styles, Material Theme -->
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+      </head>
+  <body>
+  <div class="statusbar-overlay"></div>
+    <!-- Views -->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed toolbar-fixed">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar theme-lightblue">
+              <div class="navbar-inner">
+               <a href="#" data-panel="left" class="open-panel"><img src="images/menu.svg" width="28px" class="menu"></a>
+
+              </div>
+            </div>
+              <!-- Panels Overlay -->
+  <div class="panel-overlay"></div>
+
+
+  <!-- Right Panel with Cover effect -->
+  <div class="panel panel-left panel-cover">
+
+      <div class="list-block">
+  <ul >
+    <li>
+      <a href="index.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-happy"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Inicio</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="visitar.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-camera"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Qué visitar</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="hacer.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-star-full"></span></div>
+          <div class="item-inner">
+          <div class="item-title"><b>Qué hacer</b></div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content external">
+        <div class="item-media"><span class="icon-spoon-knife"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Dónde comer</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content external">
+        <div class="item-media"><span class="icon-glass2"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Vida nocturna</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="item-link item-content external">
+        <div class="item-media"><span class="icon-office"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Dónde descansar</div>
+
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="maps/map-general.html" class="item-link item-content external">
+          <div class="item-media"><span class="icon-location2"></span></div>
+          <div class="item-inner">
+          <div class="item-title">Mapa</div>
+          </div>
+      </a>
+    </li>
+    <li>
+      <a href="acerca.html" class="item-link item-content external">
+        <div class="item-media"><span class="icon-info"></span></div>
+        <div class="item-inner">
+          <div class="item-title">Acerca de</div>
+
+        </div>
+      </a>
+    </li>
+  </ul>
+
+</div>
+  </div>
+
+  <div class="page-content">
+
+<!--Card (Seccion)-->
+<div class="content-block-title" style="color: transparent;">Qué Hacer</div>
+<!-- Inicia Anuncio -->
+  <div id="ver" class="anuncio c1">
+      <iframe src="bnr/banner.html" width="100%" height="150x;" scrolling="none" ></iframe>
+      <div>
+      <a href="#" class="button button-raised  color-red" onclick="ocultar()" style="width:100%">ocultar anuncio</a>
+      </div>
+  </div>
+<br><br><br>
+<!-- End Anuncio -->
+
+ 		<div class="card demo-card-header-pic ">
+  		<div style="background-image:url(images/sn-carlos.jpg)" valign="bottom" class="card-header color-white no-border"></div>
+  		<div class="card-content">
+    	<div class="card-content-inner">
+      	<p class="color-gray">Camino a los Limones s/n, San Carlos, Izúcar de Matamoros</p>
+      	<p align="justify">Parque Acuático San Carlos fundado hace más de 30 años por un grupo de habitantes de la comunidad, ofrece aguas termales las cuales brotan en dicho lugar.</p>
+    	</div>
+	  </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-bluegray"><p class="open-preloader-title">Más información</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+         <p style="padding-left:6px;padding-right:6px;">Disfruta de los diferentes <span class="color-blue">Servicios</span> que te ofrece Parque Acuático San Carlos.
+         <div data-progress="100" class="progressbar color-blue"></div>
+
+    En <span class="color-blue">Acuático San Carlos</span> puedes disfrutar de las diferentes zonas con las que cuenta, como los son: Zona Aqua, Zona Peques, Zona Extrema, Zona Snacks, Zona Camping y Zona Sport.
+    <div data-progress="100" class="progressbar color-blue"></div><br>
+    <div align="center">
+      <a href="http://goo.gl/Of9S5u" data-lightbox="roadtrip" data-title="Zona Aqua"><img src="http://goo.gl/Of9S5u" width="24%" alt="Zona Aqua"></a>
+      <a href="http://goo.gl/uQ6JXB" data-lightbox="roadtrip" data-title="Zona Aqua"><img src="http://goo.gl/uQ6JXB" width="24%" alt="Zona Aqua"></a>
+      <a href="http://goo.gl/bqLv37" data-lightbox="roadtrip" data-title="Zona Peques"><img src="http://goo.gl/bqLv37" width="24%" alt="Zona Peques"></a>
+      <a href="http://goo.gl/vsfgT5" data-lightbox="roadtrip" data-title="Zona Peques"><img src="http://goo.gl/vsfgT5" width="24%" alt="Zona Peques"></a>
+      <a href="http://goo.gl/a4kOGd" data-lightbox="roadtrip" data-title="Zona Extrema (Campo de gotcha)"><img src="http://goo.gl/a4kOGd" width="24%" alt="Zona Extrema"></a>
+      <a href="http://goo.gl/y5k9bV" data-lightbox="roadtrip" data-title="Zona Snacks (Tienda de Abarrotes)"><img src="http://goo.gl/y5k9bV" width="24%" alt="Zona Snacks"></a>
+      <a href="http://goo.gl/omfODt" data-lightbox="roadtrip" data-title="Zona Camping"><img src="http://goo.gl/omfODt" width="24%" alt="Zona Camping"></a>
+      <a href="http://goo.gl/lUXnjm" data-lightbox="roadtrip" data-title="Zona Sport"><img src="http://goo.gl/lUXnjm" width="24%" alt="Zona Sport"></a>
+
+      <br>
+      <br>
+
+    </div>
+         Conoce más en: <a href="http://acuaticosancarlos.com.mx" class="external">acuaticosancarlos.com.mx</a>
+        </p>
+
+     </div>
+       </li>
+        <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/sn-carlos.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+		</div>
+
+<!-- Inicia Anuncio -->
+  <div id="ver" class="anuncio">
+      <iframe src="bnr/banner.html" width="100%" height="140x;" scrolling="none" ></iframe>
+      <div align="right"><a href="#" class="button button-raised  color-red" onclick="ocultar()" style="width:100%">ocultar anuncio</a></div>
+  </div>
+<br><br><br>
+<!-- End Anuncio -->
+<div class="card demo-card-header-pic">
+      <div style="background-image:url(images/cass-cultura.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Casa de Cultura Josefina Esparza Soriano</p></div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Calle Ayuntamiento #17, Col Centro, Izúcar de Matamoros.</p>
+        <p align="justify">Localizada en el que fuera Convento Hospital de Nuestra Señora de los Dolores, actualmente se realizan diferentes actividades culturales y artisticas, además de contar con una sala donde se exponen diferentes piezas arqueologicas halladas en la obra de remodelación del "Tianguillo".</p>
+      </div>
+    </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-bluegray"> Más información</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+          <p align="justify" style="padding-left:6px;padding-right:6px;">
+           Concluyo su construcción en el año de 1740, perteneciente a la orden de los Juaninos congregación religiosa que se caracterizaba por dar servicios de curaciones gratuitamente.<br>
+           Fue abandonado en el año de 1849 y a partir del año de 1850 el H. Ayuntamiento quedo a cargo de este nosocomio.
+           Josefina Esparza  Soriano, autora del Himno al Estado de Puebla fue quien fundara esta Casa de Cultura la cual fuera la primera en el estado y actualmente orgullosamente lleva su nombre.
+
+          </p>
+
+       </div>
+       </li>
+        <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/cultura-map.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+    </div>
+
+<!-- New Card section-->
+<div class="card demo-card-header-pic">
+      <div style="background-image:url(images/h-snnic.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Ex-Hacienda de Sn. Nicolás Tolentino</p></div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Calle Ignacio Zaragoza, Sn Nicolás Tolentino, Izúcar de Matamoros.</p>
+        <p align="justify">Localizada en la comunidad de San Nicolas Tolentino, la que fuera una de las haciendas azucareras mas reelevantes de la región. <br>Si te llaman la atención los sitios de este tipo de arquitectura no dudes en visitarla.</p>
+      </div>
+    </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/sn-nic.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+    </div>
+<!--New Card Section-->
+ <div class="card demo-card-header-pic">
+      <div style="background-image:url(images/h-colon.jpg)" valign="bottom" class="card-header color-white no-border"><p class="title-c">Ex-Hacienda de Sn. Juan Colón</p></div>
+      <div class="card-content">
+      <div class="card-content-inner">
+        <p class="color-gray">Calle Emiliano Zapata , Sn Jn Colón, Izúcar de Matamoros.</p>
+        <p align="justify">Localizada en la comunidad de San Juan Colón perteneciente a el municipio de Izúcar de Matamoros.<br>Una Ex-Hacienda más perteneciente a nuestra región Mixteca, ubicada aproximadamente a 21 min. (12.4 Km) del Centro de Izúcar. </p>
+      </div>
+    </div>
+    <div class="list-block accordion-list">
+      <ul>
+      <li class="accordion-item"><a href="#" class="item-content item-link">
+          <div class="item-inner">
+          <div class="item-title color-red"><span class="icon-location"></span> Ubicación</p></div>
+       </div></a>
+       <div class="accordion-item-content">
+
+           <iframe src="maps/sn-col.html" width="100%" height="250px" frameborder="2" seamless></iframe>
+
+       </div>
+       </li>
+
+      </ul>
+    </div>
+    </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+  </body>
+</html>
